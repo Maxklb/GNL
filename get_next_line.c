@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 12:46:05 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/03/14 19:40:55 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/03/15 19:27:20 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,13 +105,13 @@ void	clean_stash(t_list **stash)
 	clean_node->next = NULL;
 	last = ft_lst_get_last(*stash);
 	i = 0;
-	while (last->content[i] && last->content[i] == '\n')
+	while (last->content[i] && last->content[i] != '\n')
 		i++;
 	if (last->content && last->content[i] == '\n')
 		i++;
 	clean_node->content = malloc(sizeof(char) * ((ft_strlen(last->content) - i) + 1));
 	if (clean_node->content == NULL)
-		return;
+		return ;
 	j = 0;
 	while (last->content[i])
 		clean_node->content[j++] = last->content[i++];

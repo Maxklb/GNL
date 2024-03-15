@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 14:07:09 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/03/08 16:31:57 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/03/15 19:27:23 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	found_newline(t_list *stash)
 		return (0);
 	current = ft_lst_get_last(stash);
 	i = 0;
-	while	(current->content[i])
+	while (current->content[i])
 	{
 		if (current->content[i] == '\n')
 			return (1);
@@ -54,7 +54,7 @@ void	generate_line(char **line, t_list *stash)
 			if (stash->content[i] == '\n')
 			{
 				len++;
-				break;
+				break ;
 			}
 			len++;
 			i++;

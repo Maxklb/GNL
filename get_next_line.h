@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 12:51:37 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/03/15 11:24:18 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/03/15 11:26:40 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,9 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+
+# include <sys/types.h>
+# include <sys/uio.h>
 
 #ifndef BUFFER_SIZE
 # define BUFFER_SIZE 5
