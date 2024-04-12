@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 14:53:36 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/12 18:36:23 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/12 19:37:27 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ char	*read_fd(char *stash, int fd)
 	char	*tmp;
 
 	tmp = ft_strdup(stash);
-	while (ft_strchr(tmp, '\n'))
+	while (!ft_strchr(tmp, '\n'))
 	{
 		i = read(fd, stash, BUFFER_SIZE);
 		if (i <= 0)
@@ -89,7 +89,7 @@ char	*get_next_line(int fd)
 		free(tmp);
 		return (NULL);
 	}
-	ligne = fill_ligne(tmp);
+	ligne = fill_line(tmp);
 	shift_stash(stash);
 	return (ligne);
 }

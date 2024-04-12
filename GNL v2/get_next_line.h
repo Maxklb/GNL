@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 16:45:53 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/12 18:37:47 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/12 19:28:52 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <fcntl.h>
 
 # ifndef BUFFER_SIZE
-# define BUFFER_SIZE 50
+# define BUFFER_SIZE 5
 # endif
 
 int		ft_strlen(char *str);
