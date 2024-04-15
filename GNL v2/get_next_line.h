@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 16:45:53 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/12 19:28:52 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/15 17:41:43 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ char	*fill_line(char *tmp);
 char	*get_next_line(int fd);
 char	*ft_strjoin(char *stash, char *buffer);
 char	*read_fd(char *stash, int fd);
-char	*get_next_line(int fd);
 void	shift_stash(char *stash);
 
 #endif
