@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 14:53:36 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/15 15:00:14 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/17 14:01:06 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ char	*fill_line(char *tmp)
 void	shift_stash(char *stash)
 {
 	int	i;
-	int j;
+	int	j;
 
 	i = 0;
 	j = 0;

@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 17:25:23 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/15 17:25:32 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/17 13:47:20 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_strlen(char *str)
 {
 	int	i;
-	
+
 	i = 0;
 	if (!str)
 		return (0);
@@ -28,7 +28,7 @@ char	*ft_strdup(char *src)
 {
 	char	*dest;
 	int		i;
-	
+
 	i = 0;
 	while (src[i])
 		i++;
