@@ -6,11 +6,11 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 14:01:12 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/17 15:30:00 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/24 15:09:33 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "include/get_next_line.h"
 
 int	main(void)
 {
@@ -22,8 +22,8 @@ int	main(void)
 	char	*line1;
 	char	*line2;
 
-	fd1 = open("two_lines_with_nl",O_RDONLY);
-	fd2 = open("three_lines_with_nl",O_RDONLY);
+	fd1 = open("tests/two_lines_with_nl",O_RDONLY);
+	fd2 = open("tests/three_lines_with_nl",O_RDONLY);
 
 	line1 = get_next_line(fd1);
 	printf("%s", line1);
@@ -36,13 +36,13 @@ int	main(void)
 	line2 = get_next_line(fd2);
 	printf("%s", line2);
 	free(line2);*/
-	*/
+
 	//programme pour get_next_line
 	
 	int		fd1;
 	char	*line1;
 
-	fd1 = open("three_lines_with_nl", O_RDONLY);
+	fd1 = open("tests/three_lines_with_nl", O_RDONLY);
 	
 	while(1)
 	{

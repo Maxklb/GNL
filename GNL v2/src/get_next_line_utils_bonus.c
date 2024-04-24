@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/09 16:37:08 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/17 13:47:09 by makoch-l         ###   ########.fr       */
+/*   Created: 2024/04/15 17:25:23 by makoch-l          #+#    #+#             */
+/*   Updated: 2024/04/24 15:06:07 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../include/get_next_line_bonus.h"
 
 int	ft_strlen(char *str)
 {

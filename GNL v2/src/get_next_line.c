@@ -6,11 +6,11 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 14:53:36 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/17 14:01:06 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/24 15:03:59 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../include/get_next_line.h"
 
 char	*fill_line(char *tmp)
 {
